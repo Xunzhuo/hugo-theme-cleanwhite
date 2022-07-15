@@ -1,0 +1,13 @@
+[build]
+  publish = "exampleSite/public"
+  command = "hugo --source=exampleSite --themesDir ../.."
+
+[build.environment]
+  HUGO_VERSION = "0.100.0"
+  HUGO_THEME = "Clean White"
+  HUGO_BASEURL = "https://istiod.cn/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
