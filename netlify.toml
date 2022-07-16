@@ -3,7 +3,7 @@
   command = "hugo --source=exampleSite --themesDir ../.."
 
 [build.environment]
-  HUGO_VERSION = "0.100.0"
+  HUGO_VERSION = "0.101.0+extended"
   HUGO_BASEURL = "https://istiod.cn/"
 
 [[headers]]
